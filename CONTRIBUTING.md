@@ -30,7 +30,7 @@ Before submitting a bug report, please:
 
 ### Suggesting Enhancements
 
-1.  **Check the [existing issues](https://github.com/<your-username>/<your-repo-name>/issues)** (and potentially [discussions](https://github.com/<your-username>/<your-repo-name>/discussions) if enabled) to see if your idea has already been suggested.
+1.  **Check the [existing issues](https://github.com/Kernel-Freak/FeedLens-SIH_1743/issues)** (and potentially [discussions](https://github.com/Kernel-Freak/FeedLens-SIH_1743/discussions) if enabled) to see if your idea has already been suggested.
 2.  If not, **create a new issue** (or discussion post).
 3.  **Clearly describe the enhancement:**
     * Explain the problem you're trying to solve or the improvement you're suggesting.
@@ -69,8 +69,8 @@ Before submitting a bug report, please:
 
 ## Need Help?
 **Contact / Author Info**
-  *Author: Samrat Mandal
-  *Email: samratmandal423@gmail.com
-  *GitHub: https://github.com/Kernel-Freak
+ - **Author**: Samrat Mandal
+ - **Email**: samratmandal423@gmail.com
+ - **GitHub**: https://github.com/Kernel-Freak
 
 Thank you for contributing!
