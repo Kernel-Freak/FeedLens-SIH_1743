@@ -50,8 +50,8 @@ FeedLens addresses these issues by automating the capture process within a contr
 
 1.  **Clone the repository:**
     ```bash
-    git clone <your-repository-url>
-    cd feedlens-directory # Or your repository's directory name
+    git clone https://github.com/Kernel-Freak/FeedLens-SIH_1743.git
+    cd FeedLens-SIH_1743
     ```
 
 2.  **Install Python:**
@@ -66,17 +66,19 @@ FeedLens addresses these issues by automating the capture process within a contr
     Install the required libraries:
     ```bash
     pip install selenium pillow reportlab pytesseract
-    # You might want to create a requirements.txt file for easier installation
-    # pip install -r requirements.txt
+    ```
+    **OR**
+    ```bash
+    pip install -r requirements.txt
     ```
 
-4.  **Install Tesseract-OCR:**
+5.  **Install Tesseract-OCR:**
     * FeedLens uses Tesseract for the optional OCR feature.
     * Download and install Tesseract from the [official repository](https://github.com/tesseract-ocr/tesseract#installing-tesseract).
     * **Crucially:** Ensure the Tesseract installation directory (containing `tesseract.exe` on Windows) is added to your system's **PATH environment variable**, OR modify the `tesseract_paths` list within the Python script (`FeedLens.py`) to point directly to your `tesseract.exe` location.
     * Install the necessary language data packs for Tesseract (e.g., English `eng` is usually included, add others if needed).
 
-5.  **Install WebDriver:**
+6.  **Install WebDriver:**
     * Download the WebDriver executable corresponding to the browser(s) you intend to use (Chrome -> chromedriver, Firefox -> geckodriver, Edge -> msedgedriver).
     * **Important:** Ensure the version of the WebDriver matches the version of your installed browser.
     * Place the WebDriver executable in a directory that is included in your system's **PATH environment variable**, OR ensure Selenium can find it (e.g., by placing it in the same directory as the script, although PATH is preferred).
@@ -85,7 +87,7 @@ FeedLens addresses these issues by automating the capture process within a contr
 
 1.  **Run the application:**
     ```bash
-    python feedlens_app.py # Replace with your main script file name
+    python FeedLens.py # Replace with your main script file name
     ```
 2.  **Enter Case Information:** Fill in the `Case Number`, `Investigator`, and any relevant `Notes` in the "Capture & Report" tab. The Case Number helps name the session folder.
 3.  **Configure Settings (Optional):** Go to the "Settings" tab to:
@@ -152,6 +154,7 @@ This project is licensed under the [GNU General Public License v3.0(GPLv3)](LICE
 - **Author**: Samrat Mandal
 - **Email**: samratmandal423@gmail.com
 - **GitHub**: https://github.com/Kernel-Freak
+- **Linkedin**: https://www.linkedin.com/in/samrat7/
 
 For additional questions or further discussion, please feel free to contact the author.
 
