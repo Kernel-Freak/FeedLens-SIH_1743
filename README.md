@@ -141,13 +141,18 @@ FeedLens addresses these issues by automating the capture process within a contr
 
 ## Contributing
 
-*(Placeholder: Add guidelines for contributing if you plan to accept contributions. E.g., how to report bugs, suggest features, or submit pull requests.)*
-We welcome contributions! Please read our `CONTRIBUTING.md` file (if available) for details.
+We welcome contributions! Please read our `CONTRIBUTING.md` file for details.
 
 ## License
+
 This project is licensed under the [GNU General Public License v3.0(GPLv3)](LICENSE). 
 
-## Acknowledgements
+## Contact / Author Info
 
-*(Optional: Thank any libraries, inspirations, or individuals.)*
+- **Author**: Samrat Mandal
+- **Email**: samratmandal423@gmail.com
+- **GitHub**: https://github.com/Kernel-Freak
+
+For additional questions or further discussion, please feel free to contact the author.
+
 
